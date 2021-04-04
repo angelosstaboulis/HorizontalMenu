@@ -40,13 +40,11 @@ extension ViewController{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return menus.count
     }
-
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         return setupCell(collectionView: collectionView, indexPath: indexPath)
     }
     func setupCell(collectionView:UICollectionView,indexPath:IndexPath)->UICollectionViewCell{
         let cell:MenuCell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! MenuCell
-      
         if indexPath.row < menus.count {
             cell.lblCaption.text = String(menus[indexPath.row])
             cell.lblCaption.textColor = .white

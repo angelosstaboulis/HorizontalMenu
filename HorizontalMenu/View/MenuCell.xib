@@ -10,14 +10,14 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="top" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="MenuCell" customModule="HorizontalMenu" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="172" height="46"/>
+            <rect key="frame" x="0.0" y="0.0" width="251" height="49"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="172" height="46"/>
+                <rect key="frame" x="0.0" y="0.0" width="251" height="49"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EXN-mQ-ag2">
-                        <rect key="frame" x="0.0" y="0.0" width="172" height="46"/>
+                        <rect key="frame" x="0.0" y="15" width="33" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -26,16 +26,15 @@
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="EXN-mQ-ag2" secondAttribute="trailing" id="HbB-g6-Qvz"/>
-                <constraint firstItem="EXN-mQ-ag2" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="cPO-v9-edK"/>
-                <constraint firstItem="EXN-mQ-ag2" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="m5E-eO-dcL"/>
-                <constraint firstAttribute="bottom" secondItem="EXN-mQ-ag2" secondAttribute="bottom" id="x1g-vA-9Ox"/>
+                <constraint firstItem="EXN-mQ-ag2" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="1" id="1YV-ZE-QG0"/>
+                <constraint firstItem="EXN-mQ-ag2" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="15" id="AP9-pb-A5y"/>
+                <constraint firstItem="EXN-mQ-ag2" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="O8r-Bi-mNO"/>
             </constraints>
-            <size key="customSize" width="244" height="46"/>
+            <size key="customSize" width="323" height="49"/>
             <connections>
                 <outlet property="lblCaption" destination="EXN-mQ-ag2" id="Ko6-Wi-0sO"/>
             </connections>
-            <point key="canvasLocation" x="-17.39130434782609" y="-121.20535714285714"/>
+            <point key="canvasLocation" x="39.855072463768117" y="-120.20089285714285"/>
         </collectionViewCell>
     </objects>
 </document>
